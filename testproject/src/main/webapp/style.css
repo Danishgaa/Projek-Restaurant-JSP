@@ -1,0 +1,257 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : Jul 21, 2023, 3:06:27 PM
+    Author     : Asus
+*/
+header {
+    background-color: black;
+    padding: 20px 50px ;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    font-size: larger;
+    text-align: center;
+    border-radius: 5px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    align-items: center;
+}
+body{
+    background-color: antiquewhite;
+}
+nav ul {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0; 
+    justify-content: flex-end;
+    align-items: center; 
+    height: 100%;
+}
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+nav ul li a {
+    font-size: larger;
+    color: white;
+    text-decoration: none;
+}
+.login-container {
+  max-width: 400px;
+  margin: 100px auto;
+  padding: 20px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+form {
+  display: flex;
+  flex-direction: column;
+}
+label {
+  margin-bottom: 5px;
+}
+input[type="text"],
+input[type="password"] {
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #ddd;
+  border-radius: 3px;
+}
+.btn {
+    background-color: burlywood;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+section.adv {
+    background-image: url('gambarjsp/RESTAURANT-NUSANTARA.jpg');
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    padding: 80px 20px;
+    overflow: hidden;
+}
+section.adv h1{
+    color:rgb(179, 6, 179);
+    font-family: 'Cedarville Cursive', cursive;
+    font-size: 8rem;
+    text-align: center;
+}
+section.adv h2{
+    color:rgb(38, 180, 215);
+    font-family:cursive;
+    font-size: xx-large;
+    text-align: center;
+}  
+section.menu h1{
+    color:black;
+    font-family: 'Cedarville Cursive', cursive;
+    font-size: 4rem;
+    text-align: center;
+}
+section.welcome h1{
+    color:black;
+    font-family: 'Cedarville Cursive', cursive;
+    font-size: 4rem;
+    text-align: center;
+}
+section.about h1{
+    color:black;
+    font-family: 'Cedarville Cursive', cursive;
+    font-size: 4rem;
+    text-align: center;
+}
+.diff {
+    color: goldenrod;
+}
+.container, .menu-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: wheat;
+}
+.container > div {
+    width: auto;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+}
+.menu-container > div {
+    width: 300px;
+    height: 200px; 
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+    box-shadow: 0 0 0 2px black;
+    padding: 10px;
+    margin: 10px 0;
+    transition: transform 0.3s ease-in-out; 
+}
+.menu-details {
+    padding-left: 20px; 
+  }
+.menu-container > div:hover {
+  transform: scale(1.1); 
+}
+.menu-container > table input[type="submit"] {
+    display: block;
+    float: right;
+  }
+.menu-container > input[type="submit"].btn:hover {
+  background-color: lightblue; 
+  color: white; 
+}
+.bukti {
+	padding: 10px;
+	border: 1px solid black;
+}
+footer {
+    background-color: black;
+    color: white;
+    padding: 5px;
+    text-align: center;
+}
+.subscribe{
+    width: 68%;
+    padding: 1.0rem 1.0rem;
+    font-size: 1.6rem;
+    text-transform: none;
+    margin: 1rem 0;
+    font-family: 'Cedarville Cursive', cursive;
+}
+.box-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 2em;
+  }
+.box-container .box {
+    flex: 1;
+    max-width: 25rem;
+    
+}
+.box-container .box h3 {
+    font-size: 2.2rem;
+    color: #222;
+    padding: 1rem 0;
+   
+}
+.box-container .box .link {
+    padding: 1rem 0;
+    display: block;
+    font-size: 1.5rem;
+    color: #777;
+    text-decoration:none
+}
+.box-container .box .link i {
+    padding-right: 0.5rem;
+    color: #c79910;
+}
+.box-container .box .link:hover {
+    color: #e6d21a;
+}
+.box-container .box .link:hover i {
+    padding-right: 2rem;
+}
+.box-container .box p {
+    font-size: 1.5rem;
+    color: #777;
+    padding: 1rem 0;
+}
+.box-container .box p i {
+    padding-right: 0.5rem;
+    color: #d4bd0a;
+    
+    text-decoration:none;
+}
+.box-container .box .share {
+    margin-top: 2rem;
+}
+.box-container .box .share a {
+    height: 5rem;
+    width: 5rem;
+    background: #fff;
+    border: 0.2rem solid #222;
+    font-size: 2rem;
+    line-height: 4.5rem;
+    color: #222;
+    text-align: center;
+    margin-right: 0.3rem;
+}
+.box-container .box .share a:hover {
+    background: #d4d404;
+    color: #fff;
+}
+.box-container .box form .email {
+    width: 80%;
+    border: 0.2rem solid #222;
+    padding: 1.2rem 1.4rem;
+    font-size: 1.6rem;
+    color: #777;
+    text-transform: none;
+    margin: 1rem 0;
+}
+.credit {
+    align-items: center;
+    font-size: 1rem;
+    margin-top: 1rem;
+    padding: 1rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    border-top: 0.2rem solid #222;
+    padding-top: 1rem;
+    color: #777;
+}
+.credit span {
+    color: #e8d843;
+    margin-left: 5px;
+}
+.disclaimer{
+    font-family: 'Cedarville Cursive', cursive;
+    margin: 5px;
+}
